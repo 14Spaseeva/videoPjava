@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Application">
+  <grid id="27dc6" binding="rootPanel" layout-manager="GridLayoutManager" row-count="3" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="922" height="627"/>
+    </constraints>
+    <properties>
+      <foreground color="-10158214"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <vspacer id="d53b2">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <toolbar id="471a3" binding="upperToolBar">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="-1" height="20"/>
+          </grid>
+        </constraints>
+        <properties/>
+        <border type="none" title="                                                                     blur                                                                                                                            meduim blur"/>
+        <children>
+          <component id="3dbe" class="javax.swing.JButton" binding="playButton">
+            <constraints/>
+            <properties>
+              <background color="-15889150"/>
+              <foreground color="-10158214"/>
+              <text value="Play"/>
+            </properties>
+          </component>
+          <component id="bcfc1" class="javax.swing.JToolBar$Separator">
+            <constraints/>
+            <properties/>
+          </component>
+          <component id="d4e5c" class="javax.swing.JSlider" binding="gaussianSlider">
+            <constraints/>
+            <properties>
+              <maximum value="30"/>
+              <value value="0"/>
+            </properties>
+          </component>
+          <vspacer id="9dab3">
+            <constraints/>
+          </vspacer>
+          <component id="69d4c" class="javax.swing.JButton" binding="bNext">
+            <constraints/>
+            <properties>
+              <text value="&gt;&gt;"/>
+            </properties>
+          </component>
+          <component id="8f50f" class="javax.swing.JSlider" binding="smoothSlider">
+            <constraints/>
+            <properties>
+              <maximum value="30"/>
+              <minimum value="1"/>
+              <value value="1"/>
+            </properties>
+          </component>
+        </children>
+      </toolbar>
+      <toolbar id="7f446" binding="toolBarZoom">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="-1" height="20"/>
+          </grid>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="33186" class="javax.swing.JSlider" binding="slider1" default-binding="true">
+            <constraints/>
+            <properties>
+              <background color="-1055455"/>
+            </properties>
+          </component>
+          <component id="8f9d7" class="javax.swing.JToolBar$Separator">
+            <constraints/>
+            <properties/>
+          </component>
+          <component id="323e6" class="javax.swing.JScrollBar" binding="scrollBar1" default-binding="true">
+            <constraints/>
+            <properties/>
+          </component>
+          <component id="f9697" class="javax.swing.JSlider" binding="zoom">
+            <constraints/>
+            <properties>
+              <background color="-14092292"/>
+              <foreground color="-15889150"/>
+              <maximum value="100"/>
+              <minimum value="1"/>
+              <value value="1"/>
+              <valueIsAdjusting value="false"/>
+            </properties>
+          </component>
+        </children>
+      </toolbar>
+      <grid id="437b8" binding="videoPanel" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-3097"/>
+          <foreground color="-3097"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="df2c8" class="javax.swing.JLabel" binding="videoLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-62457"/>
+              <enabled value="true"/>
+              <foreground color="-62457"/>
+              <text value="Label"/>
+            </properties>
+          </component>
+          <vspacer id="e703f">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>

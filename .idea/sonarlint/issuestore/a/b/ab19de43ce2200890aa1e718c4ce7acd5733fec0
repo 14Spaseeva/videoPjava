@@ -1,0 +1,24 @@
+
+msquid:S2236M"PRefactor the synchronisation mechanism to not use a Thread instance as a monitor(«¼ñ[8Åã£˜¤-
+[
+squid:S106h"9Replace this use of System.out or System.err by a logger.(€¦›Œøÿÿÿÿ8§Í”¤-
+Xsquid:S2209r"5Change this instance-reference to a static reference.(¨¸’šÿÿÿÿÿ8§Í”¤-
+Qsquid:S1068".Remove this unused "videoPanel" private field.(¥ğ´üÿÿÿÿ8Û³ƒ‘¤-
+Lsquid:S1068".Remove this unused "scrollBar1" private field.(”–¤8¼™·—¤-
+Msquid:S1068"/Remove this unused "toolBarZoom" private field.(ª²òÃ8Õóù¤-
+nsquid:CommentedOutCodeLinel"<This block of commented-out lines of code should be removed.(âùƒûıÿÿÿÿ8§Ó¢–¤-
+esquid:UselessImportCheck":Remove this unused import 'java.util.concurrent.TimeUnit'.(Æ™ş8Ÿê’˜¤-
+Isquid:S00108„")Either remove or fill this block of code.(”ı¾8–ÿß—¤-
+psquid:UselessImportCheck"ERemove this unused import 'java.util.concurrent.locks.ReentrantLock'.(òªø8ìŠ®˜¤-
+msquid:S2236/"PRefactor the synchronisation mechanism to not use a Thread instance as a monitor(«¼ñ[8§Í”¤-
+nsquid:CommentedOutCodeLineJ"<This block of commented-out lines of code should be removed.(¾ Şëúÿÿÿÿ8ÛØ­˜¤-
+dsquid:S2142s"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8§Í”¤-
+Nsquid:S1068"0Remove this unused "upperToolBar" private field.(Œ¤®8§Í”¤-
+Fsquid:S1604D"(Make this anonymous inner class a lambda(Î„ÙÜ8ô¢Ó—¤-
+gsquid:UselessImportCheck"<Remove this unused import 'java.util.concurrent.locks.Lock'.(µÒÌÿ8ìŠ®˜¤-
+Fsquid:S1148t"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8§Í”¤-
+Xsquid:S1161}":Add the "@Override" annotation above this method signature(“–ış8–ÿß—¤-
+Qsquid:S1068".Remove this unused "zoomButton" private field.(º®Óõûÿÿÿÿ8§Í”¤-
+isquid:CommentedOutCodeLineo"<This block of commented-out lines of code should be removed.(°¯Ø¤8ø¬È—¤-
+Esquid:S1604>"(Make this anonymous inner class a lambda(ÔÂÓ8àø½—¤-
+Isquid:S1068#"+Remove this unused "scaling" private field.(ÉÙšØ8àÀï–¤-

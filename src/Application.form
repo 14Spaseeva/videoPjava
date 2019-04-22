@@ -46,6 +46,12 @@
           <vspacer id="9dab3">
             <constraints/>
           </vspacer>
+          <component id="37036" class="javax.swing.JButton" binding="backButton">
+            <constraints/>
+            <properties>
+              <text value="&lt;&lt;"/>
+            </properties>
+          </component>
           <component id="69d4c" class="javax.swing.JButton" binding="bNext">
             <constraints/>
             <properties>
@@ -117,7 +123,7 @@
               <background color="-62457"/>
               <enabled value="true"/>
               <foreground color="-62457"/>
-              <text value="Label"/>
+              <text value=""/>
             </properties>
           </component>
           <vspacer id="e703f">

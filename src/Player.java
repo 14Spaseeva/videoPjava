@@ -15,6 +15,8 @@ public class Player {
     private boolean isColorPencilEffect;
     private double  gsmooth = 1;
     double length;
+    private int     frameIndx = 1;
+    public  boolean isCustomScrolled;
 
     public Player(String path, String name) {
         System.loadLibrary(Core.NATIVE_LIBRARY_NAME);
@@ -42,6 +44,7 @@ public class Player {
     }
 
     public BufferedImage getMat2BufferedImage() {
+        frameIndx++;
         scale();
         medianSmooth();
         blurSmooth();
@@ -62,7 +65,7 @@ public class Player {
     }
 
     public void setScaling(double scaling) {
-        this.scaling = scaling;
+        this.scaling = scaling/10;
     }
 
     public void setSmooth(int smooth) {
@@ -81,14 +84,26 @@ public class Player {
         this.gsmooth = smooth;
     }
 
-    public void jump(int indx) {
 
-        camera.set(Videoio.CAP_PROP_POS_FRAMES,indx);
+    public void jumpUp() {
+        // if (isCustomScrolled) {
+        int id = Videoio.CAP_PROP_POS_FRAMES;
+        int neqIndx = frameIndx + 100;
+        frameIndx = frameIndx + 100;
+        camera.set(id, neqIndx);
+        // }
     }
- public void jumpUp() {
-     int id = Videoio.CAP_PROP_POS_FRAMES;
-        camera.set(id,id+10);
+
+    int getFrameindex() {
+        return frameIndx;
     }
 
-
+    public void jumpDown() {
+        if (frameIndx > 100) {
+            int id = Videoio.CAP_PROP_POS_FRAMES;
+            int neqIndx = frameIndx - 100;
+            frameIndx = frameIndx - 100;
+            camera.set(id, neqIndx);
+        }
+    }
 }

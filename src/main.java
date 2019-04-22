@@ -8,7 +8,6 @@ public class main {
 
         Player player = new Player(PATH, NAME);
         Application app = new Application(player);
-app.run();
-      //  app.setVisible(true);
+        app.run();
     }
 }

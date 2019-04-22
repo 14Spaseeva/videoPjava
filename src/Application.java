@@ -4,9 +4,7 @@ import javax.swing.*;
 import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
 import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.awt.event.ComponentAdapter;
+import java.awt.event.*;
 import java.awt.image.BufferedImage;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.Lock;
@@ -28,6 +26,7 @@ public class Application {
     private JScrollBar scrollBar1;
     private JSlider    slider1;
     private JButton    bNext;
+    private JButton    backButton;
     private JSplitPane zoomButton;
 
     private boolean  isPlaying = true;
@@ -38,6 +37,30 @@ public class Application {
     public Application(Player player) {
         this.player = player;
         thread = new MyThread();
+        bNext.addActionListener(e ->
+        {
+            synchronized (thread) {
+                boolean temp = isPlaying;
+                isPlaying = false;
+                player.jumpUp();
+                isPlaying = temp;
+                if (temp) {
+                    thread.notifyAll();
+                }
+            }
+        });
+        backButton.addActionListener(e ->
+        {
+            synchronized (thread) {
+                boolean temp = isPlaying;
+                isPlaying = false;
+                player.jumpDown();
+                isPlaying = temp;
+                if (temp) {
+                    thread.notifyAll();
+                }
+            }
+        });
 
         playButton.addActionListener(e ->
         {
@@ -54,31 +77,12 @@ public class Application {
 
         zoom.addComponentListener(new ComponentAdapter() {
         });
-        zoom.addChangeListener(e -> player.setScaling(zoom.getValue()));
+        zoom.addChangeListener(e -> {player.setScaling(zoom.getValue());
+        System.out.println(zoom.getValue());});
 
         smoothSlider.addChangeListener(e -> player.setSmooth(smoothSlider.getValue()));
         gaussianSlider.addChangeListener(e -> player.setGSmooth(gaussianSlider.getValue()));
 
-        slider1.addChangeListener(new ChangeListener() {
-            @Override
-            public void stateChanged(ChangeEvent e) {
-                player.jump(slider1.getValue());
-            }
-        });
-        bNext.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                synchronized (thread) {
-                    boolean temp = isPlaying;
-                    isPlaying = false;
-                 //   player.jumpUp();
-                    isPlaying = temp;
-                    if (temp) {
-                        thread.notifyAll();
-                    }
-                }
-            }
-        });
     }
 
     public void run() {
@@ -90,11 +94,12 @@ public class Application {
         rootFrame.setLayout(new BorderLayout());
 
         zoom.setPaintLabels(true);
-        zoom.setMaximum(2);
+        zoom.setMaximum(12);
         zoom.setMinimum(1);
-        zoom.setValue(1);
+        zoom.setValue(7);
         slider1.setMinimum(0);
         slider1.setMaximum((int) player.length);
+        slider1.setValue(0);
         thread.start();
     }
 
@@ -105,10 +110,9 @@ public class Application {
         if (player.camera.read(player.frame)) {
             videoLabel.repaint();
             BufferedImage imgBuf = player.getMat2BufferedImage();
-            //   imgBuf.getScaledInstance(videoLabel.getWidth(), videoLabel.getHeight(), Image.SCALE_SMOOTH);
             ImageIcon image = new ImageIcon(imgBuf);
             videoLabel.setIcon(image);
-            //   slider1.setValue(Videoio.CAP_PROP_POS_FRAMES);
+            slider1.setValue(player.getFrameindex());
             try {
                 long speed = 1;
                 Thread.currentThread().sleep((long) fps * speed);
@@ -133,9 +137,8 @@ public class Application {
                         }
                     }
 
-                    play();
-
                 }
+                play();
             }
         }
     }

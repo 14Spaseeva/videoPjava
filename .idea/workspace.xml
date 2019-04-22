@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d52e06d0-ffe0-4f7f-b58a-8336da88530c" name="Default Changelist" comment="" />
+    <list default="true" id="d52e06d0-ffe0-4f7f-b58a-8336da88530c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/videoPjava/Application$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/videoPjava/Application$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/videoPjava/Application$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/videoPjava/Application$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/videoPjava/Application$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/videoPjava/Application$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/videoPjava/Application$MyThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/videoPjava/Application$MyThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/videoPjava/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/videoPjava/Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/videoPjava/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/videoPjava/Player.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/videoPjava/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/videoPjava/main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Application.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/Application.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,22 +25,33 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.48560768">
+    <splitter split-orientation="horizontal" split-proportion="0.4424307">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/Player.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="630">
-                  <caret line="89" column="29" lean-forward="true" selection-start-line="89" selection-start-column="29" selection-end-line="89" selection-end-column="29" />
+                <state relative-caret-position="443">
+                  <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
                   <folding>
                     <element signature="imports" expanded="true" />
-                    <element signature="e#833#834#0" expanded="true" />
-                    <element signature="e#889#890#0" expanded="true" />
+                    <element signature="e#1037#1038#0" expanded="true" />
                     <element signature="e#1131#1132#0" expanded="true" />
+                    <element signature="e#1917#1918#0" expanded="true" />
                     <element signature="e#1955#1956#0" expanded="true" />
+                    <element signature="e#2139#2140#0" expanded="true" />
                     <element signature="e#2197#2198#0" expanded="true" />
+                    <element signature="e#2735#2736#0" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="jar://C:/opencv/opencv/build/java/opencv-410.jar!/org/opencv/videoio/Videoio.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-1418">
+                  <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
                 </state>
               </provider>
             </entry>
@@ -34,7 +60,7 @@
             <entry file="jar://C:/opencv/opencv/build/java/opencv-410.jar!/org/opencv/videoio/VideoCapture.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="551">
-                  <caret line="241" column="8" lean-forward="true" selection-start-line="241" selection-start-column="8" selection-end-line="241" selection-end-column="8" />
+                  <caret line="211" column="20" selection-start-line="211" selection-start-column="20" selection-end-line="211" selection-end-column="20" />
                 </state>
               </provider>
             </entry>
@@ -42,7 +68,7 @@
           <file pinned="false" current-in-tab="false">
             <entry file="jar://C:/opencv/opencv/build/java/opencv-410.jar!/org/opencv/core/Core.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="158">
+                <state relative-caret-position="65016">
                   <caret line="3108" column="37" selection-start-line="3108" selection-start-column="37" selection-end-line="3108" selection-end-column="37" />
                 </state>
               </provider>
@@ -65,8 +91,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="210">
-                  <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+                <state relative-caret-position="231">
+                  <caret line="11" selection-start-line="11" selection-end-line="11" />
                 </state>
               </provider>
             </entry>
@@ -78,12 +104,10 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/Application.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="294">
-                  <caret line="103" column="34" lean-forward="true" selection-start-line="103" selection-start-column="34" selection-end-line="103" selection-end-column="34" />
+                <state relative-caret-position="305">
+                  <caret line="80" column="17" lean-forward="true" selection-start-line="80" selection-start-column="17" selection-end-line="80" selection-end-column="17" />
                   <folding>
                     <element signature="imports" expanded="true" />
-                    <element signature="e#2033#2034#0" expanded="true" />
-                    <element signature="e#2096#2097#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -140,7 +164,11 @@
       <find>gauss</find>
       <find>CV_32F</find>
       <find>weighted</find>
+      <find>CAP_PROP_POS_FRAMES</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -159,11 +187,12 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1004" />
-    <option name="y" value="-1088" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="-439" />
+    <option name="y" value="-653" />
+    <option name="width" value="1547" />
+    <option name="height" value="830" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -171,7 +200,7 @@
     <panes />
   </component>
   <component name="PropertiesComponent">
-    <property name="UI_DESIGNER_EDITOR_MODE.PaletteManager.WIDTH" value="269" />
+    <property name="UI_DESIGNER_EDITOR_MODE.PaletteManager.WIDTH" value="111" />
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="358" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555893165534" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../ЭВМ/java example/camera-calibration" />
@@ -233,7 +262,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1004" y="-1088" width="1936" height="1056" extended-state="0" />
+    <frame x="-932" y="-1048" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.10501066" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -244,7 +274,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.27410617" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.08667389" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -297,18 +327,6 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout-to-restore>
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Application.java</url>
-          <line>70</line>
-          <properties />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="debuggerHistoryManager">
     <expressions id="breakpointCondition">
       <expression>
@@ -327,13 +345,6 @@
     <entry file="file://$PROJECT_DIR$/src/javaFX/fx.fxml" />
     <entry file="file://$PROJECT_DIR$/src/s.java" />
     <entry file="file://$PROJECT_DIR$/src/CC_Controller.java" />
-    <entry file="jar://C:/opencv/opencv/build/java/opencv-410.jar!/org/opencv/videoio/Videoio.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7879">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/javax/swing/JFrame.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="249">
@@ -358,10 +369,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/GUIForm.java" />
-    <entry file="file://$PROJECT_DIR$/src/main.java">
+    <entry file="jar://C:/opencv/opencv/build/java/opencv-410.jar!/org/opencv/core/Core.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+        <state relative-caret-position="65016">
+          <caret line="3108" column="37" selection-start-line="3108" selection-start-column="37" selection-end-line="3108" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -390,10 +401,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/opencv/opencv/build/java/opencv-410.jar!/org/opencv/core/Core.java">
+    <entry file="file://$PROJECT_DIR$/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="3108" column="37" selection-start-line="3108" selection-start-column="37" selection-end-line="3108" selection-end-column="37" />
+        <state relative-caret-position="231">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/opencv/opencv/build/java/opencv-410.jar!/org/opencv/videoio/Videoio.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1418">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -407,7 +425,7 @@
     <entry file="jar://C:/opencv/opencv/build/java/opencv-410.jar!/org/opencv/videoio/VideoCapture.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="551">
-          <caret line="241" column="8" lean-forward="true" selection-start-line="241" selection-start-column="8" selection-end-line="241" selection-end-column="8" />
+          <caret line="211" column="20" selection-start-line="211" selection-start-column="20" selection-end-line="211" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -416,27 +434,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Player.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="89" column="29" lean-forward="true" selection-start-line="89" selection-start-column="29" selection-end-line="89" selection-end-column="29" />
+        <state relative-caret-position="443">
+          <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#833#834#0" expanded="true" />
-            <element signature="e#889#890#0" expanded="true" />
+            <element signature="e#1037#1038#0" expanded="true" />
             <element signature="e#1131#1132#0" expanded="true" />
+            <element signature="e#1917#1918#0" expanded="true" />
             <element signature="e#1955#1956#0" expanded="true" />
+            <element signature="e#2139#2140#0" expanded="true" />
             <element signature="e#2197#2198#0" expanded="true" />
+            <element signature="e#2735#2736#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Application.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="103" column="34" lean-forward="true" selection-start-line="103" selection-start-column="34" selection-end-line="103" selection-end-column="34" />
+        <state relative-caret-position="305">
+          <caret line="80" column="17" lean-forward="true" selection-start-line="80" selection-start-column="17" selection-end-line="80" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2033#2034#0" expanded="true" />
-            <element signature="e#2096#2097#0" expanded="true" />
           </folding>
         </state>
       </provider>
